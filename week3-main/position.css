@@ -1,0 +1,19 @@
+.box{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    margin: 13px;
+    color: rgb(0, 99, 185);
+}
+.static{
+    background-color: aqua;
+    position: static;
+}
+.relative{
+    background-color: bisque;
+    position: relative;
+}
+.absolute{
+    background-color: chartreuse;
+    position: absolute;
+}

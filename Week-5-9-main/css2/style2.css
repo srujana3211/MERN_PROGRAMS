@@ -1,0 +1,35 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width:50%;
+}
+th,td
+{
+    padding: 5px;
+     text-align: center;
+}
+th
+{
+    background-color: aqua;
+   
+}
+tr:nth-child(odd)
+{
+    background-color: blueviolet;
+}
+tr:nth-child(even)
+{
+    background-color: bisque;
+}
+tr:hover
+{
+    background-color: aquamarine;
+}
+.lunch
+{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 2px;
+    background-color: rgb(111, 241, 246);
+}

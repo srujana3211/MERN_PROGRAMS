@@ -1,0 +1,52 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 25px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+.name input {
+    margin-right: 5px;
+    width: 140px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input,
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}

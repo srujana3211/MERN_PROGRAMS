@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color:blue;
+    padding: 0;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    position: relative;  
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #1f35a0;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.dropdown a {
+    color: black;
+}
+.navbar li:hover .dropdown {
+    display: block;
+}
+.dropdown a:hover {    background-color: #f2f2f2;
+}

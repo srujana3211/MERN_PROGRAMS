@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+}
+
+fieldset {
+    border-style: dashed;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+}
+
+input {
+    margin: 10px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+}
+button
+{
+    background-color: rgb(36, 223, 36);
+    color: white;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+    background-color: #4a6cff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}

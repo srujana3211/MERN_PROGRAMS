@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    background-color: snow;
+}
+table
+{
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color:blueviolet;
+}
+h1,h3{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom:2px solid black;
+}
+p{
+    text-align: center;
+    color:blueviolet;
+}

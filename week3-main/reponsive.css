@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;                 
+  justify-content: center;       
+  align-items: center;           
+  gap: 20px;                     
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 24px;
+  display: flex;                 
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

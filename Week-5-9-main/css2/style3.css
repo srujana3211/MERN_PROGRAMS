@@ -1,0 +1,24 @@
+label
+{
+    display:inline-block;
+    width:200px;
+}
+textarea
+{
+    height: 100px;
+}
+input,textarea{
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus,textarea:focus
+{
+    border-color:  aqua;
+    outline: none;
+
+}
